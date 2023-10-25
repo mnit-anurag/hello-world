@@ -1,6 +1,6 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>New Person Register</h1>
+    <h1>New User Register</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
 
@@ -13,6 +13,10 @@
     <br>
 
     <label for="Name"><b>Enter Last Name</b></label>
+    <input type="text" placeholder="Enter Last Name" name="Name" id="Name" required>
+    <br>
+
+    <label for="Name"><b>Enter Gender</b></label>
     <input type="text" placeholder="Enter Last Name" name="Name" id="Name" required>
     <br>
 
